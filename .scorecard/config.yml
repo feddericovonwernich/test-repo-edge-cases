@@ -3,3 +3,9 @@ service:
   team: ""
   description: ""
   links: []
+
+excluded_checks:
+  - check: "06-openapi-spec"
+    reason: "Internal library - no API"
+  - check: "07-openapi-quality"
+    reason: "Internal library - no API"
